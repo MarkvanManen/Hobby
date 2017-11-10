@@ -1,0 +1,36 @@
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="interface.css">
+	</head>
+	<body background="background.png">
+		<div id="page">
+		<font size="6">
+		<button class="btn btn-success btn-lg btn3d" onClick="coinClick(1)">Click Me!</button>
+		</div>
+		<div id="page2">
+		<p>&nbsp;</p>
+		<p class="bottom1"><center><span style="font-size:60px"><b>Coins: </b></span><span id="coins" style="font-size:60px"><b>0</b></span></center></p>
+		<p class="bottom1"><center>Coins per second: <span id="coinsPerSecond">0</span></center></p>
+		<center><button onClick="buyCursor()">Buy cursor</button></center>
+		<center>Cursors: <span id="cursors">0</span></center>
+		<p class="bottom1"><center>Cursor Cost: <span id="cursorCost">10</span></center></p>
+		<center><button onClick="buyCursorUpgrade()">Buy Cursor Upgrade</button></center>
+		<center>Cursor Upgrades: <span id="cursorUpgrades">0</span></center>
+		<p class="bottom1"><center>Cursor Upgrade Cost: <span id="cursorUpgradeCost">100</span></center></p>
+		<center><button onClick="buyClickUpgrade()">Buy Click Upgrade</button></center>
+		<center>Click Upgrades: <span id="clickUpgrades">0</span></center>
+		<center>Click Upgrade Cost: <span id="clickUpgradeCost">150</span></center>
+		<p>&nbsp;</p>
+		<center><p class="bottom2"><button onClick="save()">Save Game</button></p></center>
+		<center><p class="bottom2"><button onClick="load()">Load Game</button></p></center>
+		<center><p class="bottom2"><button onClick="resetgame()">Reset Game</button></p></center>
+		<center><p class="bottom2"><button onClick="updatecps()">Update Cps</button></p></center>
+		<script type="text/javascript" src="main.js"></script>
+		</font>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	</body>
+</html>
